@@ -8,7 +8,25 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-@font-face{
-    src: url(../fonts/Inter/inter.css);
-    font-family: "Inter";
+@import url(../blocks/body/body.css);
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	src:url(../fonts/Inter/Inter-Regular.woff) format(woff),
+        url(../fonts/Inter/Inter-Regular.woff2) format(woff2);
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	src:url(../fonts/Inter/Inter-Bold.woff) format(woff),
+        url(../fonts/Inter/Inter-Bold.woff2) format(woff2);
+}
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 900;
+	src:url(../fonts/Inter/Inter-Black.woff) format(woff),
+        url(../fonts/Inter/Inter-Black.woff2) format(woff2);
 }

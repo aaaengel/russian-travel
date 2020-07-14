@@ -3,12 +3,12 @@
 @import url(./__website/place__website.css);
 @import url(./__link/place__link.css);
 @import url(./__paragraph/place__paragraph.css);
+@import url(./__website-column/place__website-column.css);
 .place{
     display: grid;
     grid-template-areas:
     "header url"
     "image  paragraph";
-    min-height:660px;
     max-width: 984px;
 }
 @media screen and (max-width: 1024px) {

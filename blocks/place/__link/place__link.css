@@ -8,9 +8,10 @@ line-height: 22px;
 text-decoration-line: underline;
 color: #fff;
 grid-area:url;
-align-self: flex-end;
+align-self: flex-start;
 opacity:1;
 transition: 0.5s ease;
+margin-left: 40px;
 }
 .place__link:hover{
     opacity:0.5;
