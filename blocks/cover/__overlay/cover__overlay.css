@@ -1,0 +1,12 @@
+.cover__overlay{
+    background-color:black;
+    opacity: 0.3;
+    height:100%;
+    width:100%;
+    position: absolute;
+    transition: opacity 0.5s ease;
+}
+.cover__overlay:hover{
+    opacity:0.8;
+    transition: opacity 0.5s linear;
+}

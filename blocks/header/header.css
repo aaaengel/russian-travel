@@ -1,0 +1,20 @@
+@import url(./__lang-link/header__lang-link.css);
+.header{
+    max-width: calc(100% - 96px);
+    height:52px;
+    margin:auto;
+    padding-top: 28px;
+    align-items: flex-end;
+    justify-content: space-between;
+    display: flex;
+}
+@media screen and (max-width:768px){
+    .header{
+        max-width: calc(100% - 48px);
+    }
+}
+@media screen and (max-width:320px){
+    .header{
+        max-width: calc(100% - 32px);
+    }
+}

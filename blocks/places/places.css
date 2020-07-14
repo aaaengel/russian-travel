@@ -1,0 +1,10 @@
+.places{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-rows: repeat(auto-fit 1fr);
+    min-height: 3392px;
+    width: 984px;
+    margin: auto;
+    grid-gap: 80px;
+    margin-top: 92px;
+}
