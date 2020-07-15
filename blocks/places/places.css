@@ -1,8 +1,8 @@
 .places{
     display:grid;
     grid-template-rows: 1fr;
-    grid-template-rows: repeat(auto-fit 1fr);
-    width: 984px;
+    grid-template-rows: repeat(5, 1fr);
+    max-width: 984px;
     margin: auto;
     grid-gap: 80px;
     margin-top: 92px;

@@ -8,7 +8,6 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
-    display: inline;
 }
 @media screen and (max-width: 320px){
     .footer__copyright{

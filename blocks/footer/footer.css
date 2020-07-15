@@ -2,7 +2,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__links/footer__links.css);
 .footer{
-    width: 1184px;
+    max-width: 1184px;
     margin: auto;
     margin-bottom:24px;
     display: flex;
@@ -10,16 +10,16 @@
 }
 @media screen and (max-width:1024){
     .footer{
-        width:928px;
+        max-width:928px;
     }
 }
 @media screen and (max-width:768px){
     .footer{
-        width:720px;
+        max-width:720px;
         margin-left: 24px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:320px){
     .footer{
        flex-direction: column;
     }

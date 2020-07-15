@@ -22,7 +22,7 @@
     .photo-grid__item {
         max-height: 216px;
         max-width: calc(90vw - 16px);
-     
+        min-width: 288px;
     }
   }
   
