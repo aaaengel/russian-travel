@@ -24,12 +24,11 @@ margin-left: 40px;
         max-width:352px;
         font-size: 16px;
         line-height: 26px;
-        margin-left: 0;
     }
 }
 @media screen and (max-width:320px){
     .place__paragraph{
         max-width:288px;
-        
+         margin-left: 0;
     }
 }
