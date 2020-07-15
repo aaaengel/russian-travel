@@ -1,4 +1,5 @@
 .lead__title{
+   display: flex;
    font-family: 'Inter';
    font-style:  normal;
    font-weight: 900;
@@ -11,14 +12,19 @@
 }
 @media screen and (max-width:1024px){
    .lead__title{
-       margin-left: 152px;
-       margin-right: 152px;
+       margin-left: 104px;
+       margin-right: 104px;
    }
 }
 @media screen and (max-width:768px){
    .lead__title{
-       margin-left: 24px;
-       margin-right: 24px;
+       margin-left: 0;
+       margin-right: 0;
+   }
+}
+@media screen and (max-width:670px){
+   .lead__title{
+      font-size: 85px;
    }
 }
 @media screen and (max-width:600px){
