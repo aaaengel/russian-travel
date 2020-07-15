@@ -7,6 +7,11 @@ font-size: 72px;
 line-height: 76px;
 text-align: center;
 text-decoration: none;
+z-index: 3;
+margin: auto;
+color:#fff;
+text-decoration: none;
+margin-bottom: 0;
 }
 @media screen and (max-width: 500px){
     .cover__title{
