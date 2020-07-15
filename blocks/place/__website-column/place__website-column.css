@@ -3,7 +3,7 @@
     flex-direction: column;
     align-self: flex-end;
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:340px){
     .place__website-column{
         display: none;
     }

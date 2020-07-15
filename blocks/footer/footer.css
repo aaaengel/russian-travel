@@ -19,8 +19,15 @@
         margin-left: 24px;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
     .footer{
        flex-direction: column;
+       text-align: center;
+    }
+}
+@media screen and (max-width:400px){
+    .footer{
+       flex-direction: column;
+       text-align: start;
     }
 }

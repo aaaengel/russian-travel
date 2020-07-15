@@ -17,8 +17,3 @@ margin-left: 40px;
     opacity:0.5;
     transition: 0.5s ease;
 }
-@media screen and (max-width:320px){
-    .place__website{
-        display: none;
-    }
-}

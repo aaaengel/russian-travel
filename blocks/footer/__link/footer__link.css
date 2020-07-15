@@ -16,7 +16,7 @@ transition: 0.5s ease;
     opacity:0.5;
     transition: 0.5s ease;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:650px){
     .footer__link{
         font-weight: 200;
         margin-bottom: 32px;
