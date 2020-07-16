@@ -12,6 +12,7 @@
     text-decoration: none;
     margin: auto;
     margin-top: 32px;
+    opacity: 1;
 }
 @media screen and (max-width: 500px){
     .cover__subtitle{
