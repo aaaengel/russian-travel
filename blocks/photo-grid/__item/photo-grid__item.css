@@ -1,29 +1,25 @@
 .photo-grid__item{
     max-width: calc((90vw - 48px)/4);
     max-height: 213px;
+    margin: auto;
 }
 @media screen and (max-width: 1024px) {
     .photo-grid__item {
-        max-height: 225px;
         max-width: calc((90vw - 48px)/3);
-        
     }
   }
   
   @media screen and (max-width: 768px) {
     .photo-grid__item {
-        max-height: 264px;
         max-width: calc((90vw - 24px)/2);
-      
     }
   }
   
   @media screen and (max-width: 425px) {
     .photo-grid__item {
-        max-height: 216px;
-        max-width: calc(90vw - 16px);
-        min-width: 288px;
-    }
+       max-width: calc(90vw - 16px);
+       
+      }
   }
   
   

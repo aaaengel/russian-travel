@@ -1,6 +1,6 @@
 .place__link{
 padding-top: 12px;
-font-family: Inter;
+font-family: Inter, "Arial",sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
@@ -14,6 +14,6 @@ transition: 0.5s ease;
 margin-left: 40px;
 }
 .place__link:hover{
-    opacity:0.5;
+    opacity:0.8;
     transition: 0.5s ease;
 }

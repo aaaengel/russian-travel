@@ -1,6 +1,5 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
-@import url(./__text/cover__text.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__image/cover__image.css);
 .cover{
@@ -15,6 +14,7 @@
     background-size: cover;
     text-decoration: none;
     flex-direction: column;
+    background-position: center;
 }
     
 @media screen and (max-width: 1024px){

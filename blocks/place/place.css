@@ -11,12 +11,6 @@
     "image  paragraph";
     max-width: 984px;
 }
-@media screen and (max-width: 1024px) {
-    .place{
-        margin-left: 48px;
-    }
-  }
-  
   @media screen and (max-width: 768px){
     .place{
         max-width: 720px;
