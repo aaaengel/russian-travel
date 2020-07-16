@@ -5,6 +5,7 @@
     margin: auto;
     font-family: "Inter", "Arial",sans-serif;
     color: white;
+    z-index: -3;
 }
 
   
